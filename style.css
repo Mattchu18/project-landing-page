@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column; 
+    justify-content: center;
 }
 
 .container { 
@@ -23,5 +24,24 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
-  
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+}
+
+.text1 {
+    justify-content: flex-start;
+}
+
+.awesome {
+    font-size: 48px;
+    color: #f9FAF8;
+}
+
+.awesome-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
