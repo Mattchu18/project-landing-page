@@ -114,20 +114,25 @@ a {
 
 .content4 {
     display: flex;
-    padding: 100px 150px 100px ;
-    justify-content: space-between;
+    padding: 100px 150px 100px;
+    justify-content: center;
 }
 
 .signup {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 
 .signupbuttonbackground { 
-    background: blue;
-    padding: 20px 50px;
+    background: #3882f6;
+    
+    padding: 30px 150px 30px;
 }
 
 .call { 
+    color: #f9faf8;
     font-weight: bold;
+}
+
+.calltext { 
+    color: #e5e7eb;
 }
