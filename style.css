@@ -115,13 +115,17 @@ a {
 .content4 {
     display: flex;
     padding: 100px 150px 100px ;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .signup {
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+}
+
+.signupbuttonbackground { 
+    background: blue;
+    padding: 20px 50px;
 }
 
 .call { 
