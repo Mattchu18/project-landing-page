@@ -123,7 +123,7 @@ a {
 
 .signupbuttonbackground { 
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
     background: #3882f6;
     padding: 30px 150px 30px;
 }
@@ -136,3 +136,8 @@ a {
 .calltext { 
     color: #e5e7eb;
 }
+
+.content4 button {
+    flex-shrink: 0;
+}
+
