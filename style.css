@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column; 
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container { 
@@ -49,11 +50,15 @@ a {
 .awesome-subtext {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 10px;
 }
 
 .content1-signup-button {
     background: #3882f6;
     color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
 }
 
 .content1 img {
@@ -123,9 +128,10 @@ a {
 
 .signupbuttonbackground { 
     display: flex;
-    gap: 100px;
     background: #3882f6;
+    border-radius: 8px;
     padding: 30px 150px 30px;
+    gap: 100px;
 }
 
 .call { 
@@ -139,5 +145,17 @@ a {
 
 .content4 button {
     flex-shrink: 0;
+    background: #3882f6;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    padding: 10px 30px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 30px 150px 30px;
+}
